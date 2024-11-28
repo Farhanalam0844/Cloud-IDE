@@ -1,0 +1,71 @@
+.main-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.editor-container{
+  min-height: 60vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.terminal-container{
+text-decoration: dashed;
+}
+
+li{
+  list-style: none;
+}
+/* MessageBox.css */
+.message-box {
+  position: absolute;
+  right: 0%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden; /* Ensures no overflow from the box */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add some shadow */
+  width: 13rem;
+
+}
+.svg-inline--fa.fa-w-14{
+  display: none;
+}
+.chat-container {
+  background-color: #f9f9f9; /* Light background for chat area */
+  padding: 10px; /* Padding around chat container */
+}
+
+.message-list {
+  margin-bottom: 10px; /* Space between message list and input */
+}
+
+.message-input {
+  border-top: 1px solid #ccc; /* Separator line above input */
+  background-color: #fff; /* White background for input */
+}
+
+.message {
+  background-color: #e0f7fa; /* Light blue for message background */
+  border-radius: 5px; /* Rounded corners for messages */
+  padding: 8px 12px; /* Padding inside message */
+  margin-bottom: 5px; /* Space between messages */
+}
+.cs-message-input__content-editor{
+  width: 7rem;
+  padding: 0.3rem 1rem;
+  border: 0.03rem solid black;
+  border-radius: 1rem;
+margin: 0.1rem;
+
+}
+
+.cs-button--send{
+  padding: 0.5rem;
+}
+.cs-message-input{
+  /* width: 15rem; */
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+  flex-wrap: wrap;
+}
